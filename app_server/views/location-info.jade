@@ -1,0 +1,67 @@
+extends layout
+
+block content
+  .row.banner
+    .col-12
+      h1 Spotify-clone A music player
+
+
+          .card.card-primary
+            .card-block
+              h2.card-title your Library
+              p.card-text playlists
+
+          .card.card-primary
+            .card-block
+              h2.card-title Facilities
+              span.badge.badge-warning
+                i.fa.fa-check
+                | &nbsp;personal playlists
+              | &nbsp;
+              span.badge.badge-warning
+                i.fa.fa-check
+                | &nbsp;uninterupted music
+              | &nbsp;
+              span.badge.badge-warning
+                i.fa.fa-check
+                | &nbsp;no premium 
+
+    .row
+      .col-12
+        .card.card-primary.review-card
+          .card-block
+            a.btn.btn-primary.float-right(href='/location/review/new') ➥ Add review
+            h2.card-title user reviews
+            .row.review
+              .col-12.no-gutters.review-header
+                span.rating
+                  i.fas.fa-star
+                  i.fas.fa-star
+                  i.fas.fa-star
+                  i.far.fa-star
+                  i.far.fa-star
+                span.review  sri ram
+                small.review  16 February 2024
+              .col-12
+                p Really sounds good.As same as real one with most likly features init.
+
+            .row.review
+              .col-12.no-gutters.review-header
+                span.rating
+                  i.fas.fa-star
+                  i.fas.fa-star
+                  i.fas.fa-star
+                  i.far.fa-star
+                  i.far.fa-star
+                span.reviewAuthor sripadh
+                small.reviewTimestamp 14 February 2023
+              .col-12
+                p This app is horrendous!.Everything is just free.
+
+    .col-12.col-lg-3
+      p.lead
+        | Reach out to 1000+ smartphone Users. Connect, engage, convert with our unique, performance driven advertising solutions.
+
+
+      p
+        | If you've been and you like it - or if you don't - please leave a review to help other people just like you.
